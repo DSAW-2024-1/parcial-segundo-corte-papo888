@@ -95,19 +95,18 @@ app.get('/users/:count', (req, res) => {
 // Ruta para simular la creación de un usuario
 app.post('/users', (req, res) => {
     // Parsear los datos del cuerpo de la solicitud
-        const { nombre, apellido, correo, ciudad, país } = req.body;
+    const { name, lastName, email, city, country } = req.body;
 
-
-    if (!nombre || !apellido || !correo) {
+    if (!name || !lastName || !email) {
         return res.status(400).json({ error: 'Debe proporcionar nombre, apellido y correo electrónico' });
     }
 
     const user = {
-        nombre,
-        apellido,
-        correo,
-        ciudad: ciudad || 'Bogotá',
-        país: país || 'Colombia'
+        name,
+        lastName,
+        email,
+        city: city || 'Bogotá',
+        country: country || 'Colombia'
     };
 
     res.json(user);
@@ -116,7 +115,7 @@ app.post('/users', (req, res) => {
 //Sin end point
 app.get('/', (req, res) => {
     console.log("Ha logrado acceder a /")
-    res.status(200).send("Se ha accedido  a localhost:8080")
+    res.status(200).send("Se ha accedido  a localhost: hecho por Juan Parrado")
 });
 
 // Iniciar el servidor
