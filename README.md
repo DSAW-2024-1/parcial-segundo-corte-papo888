@@ -1,6 +1,8 @@
 El siguiente enlace te redirige al despliegue de la aplicación en Vercel, donde puedes probar las diferentes rutas de la API implementada: 
 https://parcial-56ghl54ai-papo888s-projects.vercel.app
 
+No se logró subir la api en este repo, por lo tanto se subió en el que está a continuación: https://github.com/papo888/parcial.git
+
 Juan Pablo Parrado Morales
 id: 0000291023
 
