@@ -1,3 +1,15 @@
+El siguiente enlace te redirige al despliegue de la aplicación en Vercel, donde puedes probar las diferentes rutas de la API implementada: 
+https://api-olive-ten.vercel.app
+El parcial tiene nota sobre 2.5 después de haber hablado con el profesor.
+Cuando no hay end point se muestra en pantalla Cannot GET /
+
+No se logró subir la api en este repo, por lo tanto se subió en el que está a continuación: https://github.com/papo888/parcial.git
+
+Juan Pablo Parrado Morales
+id: 0000291023
+
+
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/KsHSEX27)
 ## Examen de Desarrollo Backend con Express
 
 ### Instrucciones Generales
