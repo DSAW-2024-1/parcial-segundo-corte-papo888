@@ -115,7 +115,7 @@ app.post('/users', (req, res) => {
 //Sin end point
 app.get('/', (req, res) => {
     console.log("Ha logrado acceder a /")
-    res.status(200).send("Se ha accedido  a localhost:8080")
+    res.status(200).send("Cannot GET /")
 });
 
 // Iniciar el servidor
